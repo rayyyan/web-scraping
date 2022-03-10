@@ -18,6 +18,10 @@ class Browser {
       timeout: 0,
       waitUntil: "networkidle2",
     })
+    await page.waitForSelector("#text-input-what")
+    await page.type("#text-input-what", "React Developer")
+    await page.waitForSelector("#text-input-where")
+    await page.type("#text-input-where", "Canada")
   }
 }
 //text-input-what
