@@ -1,0 +1,27 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyyan/web-scraping.git"
+  },
+  "author": "Benchendikh Abdelkaioum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayyyan/web-scraping/issues"
+  },
+  "homepage": "https://github.com/rayyyan/web-scraping#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  }
+}
